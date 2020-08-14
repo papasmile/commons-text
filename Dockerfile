@@ -13,8 +13,8 @@
  # See the License for the specific language governing permissions and
  # limitations under the License.
 
-ENV JAVA_HOME /usr/local/openjdk-11
-
 FROM maven:3.6.3-jdk-11
+
+ENV JAVA_HOME /usr/local/openjdk-11
 
 COPY / /
